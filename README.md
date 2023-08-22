@@ -1,1 +1,3 @@
 # ComputationalVision-opencv
+
+Using opencv to detect texts in images using opencv and regex. In this project, the default opencv psm was used in order to define the best segmentation method for each said image (thas because i used a for loop to iretare through all of the images in the directory in order to save time). Then, a confidence level threeshold was defined ir order to filter only the detections with the most chance of beeing correctly identified. After that, regex was used to check if said text matched the term i was looking for. If so, the text was highlighted and rewriten just above the original text in the image.
